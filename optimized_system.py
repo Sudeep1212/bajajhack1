@@ -26,7 +26,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import PyPDF2
 import io
 
-# Download required NLTK
+# Download required NLTK data
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
