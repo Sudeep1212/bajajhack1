@@ -39,9 +39,18 @@ except LookupError:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Multiple API keys for rotation
+# Multiple API keys for rotation - 10 API keys for bulletproof operation
 API_KEYS = [
-    "AIzaSyCfPtyPVOXvbO1nUnoIlKB81xBV_SL6drQ"
+    "AIzaSyD7VOzLJe9tdHBPfz2MaF0ag1uKLMN5S4I",
+    "AIzaSyAzioJtpKSSU8RqzeDielck08m7YOkL6Lk",
+    "AIzaSyCturqn478GurAsDjG80p38xwOJR8i5Dxc",
+    "AIzaSyAKxMS3h-Dvg4R-eEa1VTZagfgYdsyGJ08",
+    "AIzaSyCi-kSXDkJtjn3qpHOtn7_i2Gp44eM9tzc",
+    "AIzaSyAp61P_hc25OuJW0CG2YBhFvj8ndAGPSGA",
+    "AIzaSyDjPfezH_amGWt9G5vpr-2x5mYZN1AdYpU",
+    "AIzaSyDooA_ozoxWw-fDeM8-HPu0wc6hKW_82fg",
+    "AIzaSyCUtj4SePS6u_w5NDNBeSrgS7E5XgQbNN0",
+    "AIzaSyCZJIdCw2Olw7iu6yFOaav0COa_btX99N8"
 ]
 
 class OptimizedHackRxSystem:
